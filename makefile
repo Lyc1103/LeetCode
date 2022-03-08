@@ -16,6 +16,8 @@ all:
 	gcc 55-Jump-Game.c -o 55
 	gcc 58-Length-of-Last-Word.c -o 58
 	gcc 66-Plus-One.c -o 66
+	gcc 67-Add-Binary.c -o 67
+	gcc 69-Sqrt(x).c -o 69
 	gcc 70-Climbing-Stairs.c -o 70
 	gcc 82-Remove-Duplicates-from-Sorted-List-II.c -o 82
 	gcc 83-Remove-Duplicates-from-Sorted-List.c -o 83
@@ -37,6 +39,7 @@ all:
 	gcc 141-Linked-List-Cycle.c -o 141
 	gcc 144-Binary-Tree-Preorder-Traversal.c -o 144
 	gcc 145-Binary-Tree-Postorder-Traversal.c -o 145
+	gcc 152-Maximum-Product-Subarray.c -o 152
 	gcc 155-Min-Stack.c -o 155
 	gcc 160-Intersection-of-Two-Linked-Lists.c -o 160
 	gcc 168-Excel-Sheet-Column-Title.c -o 168
@@ -64,14 +67,11 @@ all:
 	gcc 740-Delete-and-Earn_byQuickSort.c -o 740
 	gcc 746-Min-Cost-Climbing-Stairs.c -o 746
 	gcc 918-Maximum-Sum-Circular-Subarray.c -o 918
+	gcc 1014-Best-Sightseeing-Pair.c -o 1014
 	gcc 1030-Matrix-Cells-in-Distance-Order.c -o 1030
 	gcc 1137-N-th-Tribonacci-Number.c -o 1137
 	gcc 1464-Maximum-Product-of-Two-Elements-in-an-Array_byRadixSort.c -o 1464
 	gcc 1567-Maximum-Length-of-Subarray-With-Positive-Product.c -o 1576
 	gcc 1878-Get-Biggest-Three-Rhombus-Sums-in-a-Grid.c -o 1878
-	gcc review-67-Add-Binary.c -o 67
-	gcc review-69-Sqrt(x).c -o 69
-	gcc review-152-Maximum-Product-Subarray.c -o 152
-	gcc review-1014-Best-Sightseeing-Pair.c -o 1014
 clean:
 	rm -f *.exe
