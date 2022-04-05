@@ -1,1 +1,0 @@
-s = "abcdefghij", k = 2
